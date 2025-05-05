@@ -1,0 +1,36 @@
+{% extends 'base.html' %} {% block content %}
+<section id="contact">
+    <div class="row">
+        <div class="col">
+            <div>
+                <div class="d-flex">
+                    <box-icon name='mail-send'></box-icon>
+                    <p>andilek.ngobese@outlook.com</p>
+                </div>
+                <div class="d-flex">
+                    <box-icon  type="logo" name='linkedin'></box-icon>
+                    <p>Andile Ngobese</p>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                  <input type="email" class="form-control" placeholder="email address" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Organization" aria-label="Last name">
+                </div>
+            </div>
+        </div>
+      </div>
+</section>
+{% endblock %}

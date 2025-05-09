@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="{% url 'home' %}">Andile Ngobese</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-secondary-emphasis">
+      <div class="container-fluid text-secondary-emphasis">
+        <a class="navbar-brand text-light" href="{% url 'home' %}">Andile Ngobese</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,19 +28,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse text-light" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'home' %}">Home</a>
+              <a class="nav-link text-light" href="{% url 'home' %}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'projects' %}">Projects</a>
+              <a class="nav-link text-light" href="{% url 'projects' %}">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About</a>
+              <a class="nav-link text-light" href="">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+              <a class="nav-link text-light" href="{% url 'contact' %}">Contact</a>
             </li>
           </ul>
           <div class="ms-auto icons">
